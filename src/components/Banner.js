@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Tanvir`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Electrical Engineer", "Software Engineer", "QA Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Tanvir Ahmed.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Electrical Engineer", "Software Engineer", "QA Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Currently working as a Software Quality Assurance Engineer at TigerIT Bangladesh Ltd.
 Previously worked as a Maintenance Engineer in Beximco Group. Successfully completed a world-class medical, testing, and health screening facility project of Beximco Group (A joint venture project of Beximco Group and Fullerton Health Singapore). Developed an automatic room assigning software, a store inventory management software using MS Excel- Macro, VBA etc.
 Completed Bachelor of Science (BSc) in EECE from Military Institute of Science and Technology (MIST) & was involved in several extra-curricular & volunteer activities for personal & professional growth.
