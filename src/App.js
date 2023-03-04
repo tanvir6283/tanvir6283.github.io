@@ -10,7 +10,8 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Section } from "./components/Section";
-
+import React, { useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">

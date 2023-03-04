@@ -1,7 +1,12 @@
-import React from "react";
-import Section from "../components/Section";
+import { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import headerImg from "../assets/img/header-img.svg";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+import {Section} from "../components/Section.js";
 
-export default function Experience() {
+export const Experience=()=> {
   return (
     <Section id="experience" title="Experience">
       <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
