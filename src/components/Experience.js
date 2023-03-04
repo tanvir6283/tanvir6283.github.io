@@ -8,21 +8,22 @@ import {Section} from "../components/Section.js";
 
 export const Experience=()=> {
   return (
-    <Section id="experience" title="Experience">
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <Section className="experience" id="experience">
+      <div className="experience1">
+      <div className="experience">
         <div className="flex-grow-1">
+          <h1 className="exp1">Experience</h1><br/><br />
           <h3 className="mb-0">Software Quality Assurance Engineer</h3>
           <div className="subheading mb-3">TigerIT Bangladesh Ltd.</div>
           <p>
-            <strong>Roles/Responsibilities</strong><br />
-            <li>CommChat- QA Team, Software and Services</li>
+              <li>CommChat- QA Team, Software and Services</li>
         </p>
         </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">14th August 2022 to Present</span>
+        <div className="exp">
+          <span className="text-primary">14th August 2022 to Present</span><br /><br />
         </div>
       </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div className="experience">
         <div className="flex-grow-1">
           <h3 className="mb-0">Maintenance Engineer</h3>
           <div className="subheading mb-3">Beximco Group</div>
@@ -41,10 +42,10 @@ export const Experience=()=> {
             </p>
         </div>
         <div className="flex-shrink-0">
-          <span className="text-primary">15th August 2021 to 1st August 2022</span>
+          <span className="text-primary">15th August 2021 to 1st August 2022</span><br /><br /><br />
         </div>
       </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div className="experience">
         <div className="flex-grow-1">
           <h3 className="mb-0">Intern Engineer- Automation Department</h3>
           <div className="subheading mb-3">Consultant BD</div>
@@ -55,8 +56,9 @@ export const Experience=()=> {
            </p>
         </div>
         <div className="flex-shrink-0">
-          <span className="text-primary">9th January 2019 to 25th December 2019</span>
+          <span className="text-primary">9th January 2019 to 25th December 2019</span><br />
         </div>
+      </div>
       </div>
     </Section>
   );
